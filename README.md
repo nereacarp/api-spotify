@@ -141,12 +141,24 @@ Todos siguen los mismos pasos:
 | `502` | Spotify falla o no responde |
 
 <p align="center">
-  <a href="img/vista_general.png"><img src="img/vista_general.png" height="400" alt="Vista general de /docs" title="/docs con todos los endpoints" /></a>
-  <a href="img/listar_favoritos.png"><img src="img/listar_favoritos.png" height="400" alt="Favoritos" title="GET /usuarios/1/favoritos" /></a>
-  <a href="img/listar_preferencias.png"><img src="img/listar_preferencias.png" height="400" alt="Preferencias" title="GET /usuarios/1/preferencias" /></a>
-  <a href="img/playlist_con_canciones.png"><img src="img/playlist_con_canciones.png" height="400" alt="Playlist con canciones" title="GET /usuarios/1/playlists/1" /></a>
-  <a href="img/error_mail_repetido.png"><img src="img/error_mail_repetido.png" height="400" alt="Email repetido 409" title="POST /usuarios con email repetido (409)" /></a><br />
-  <sub>Por orden: <code>/docs</code> con todos los endpoints, <code>GET /usuarios/1/favoritos</code>, <code>GET /usuarios/1/preferencias</code>, <code>GET /usuarios/1/playlists/1</code> y <code>POST /usuarios</code> con un email repetido (<code>409</code>).</sub>
+  <a href="img/vista_general.png"><img src="img/vista_general.png" width="600" alt="Vista general de /docs" /></a><br />
+  <sub><code>/docs</code> con todos los endpoints</sub>
+</p>
+<p align="center">
+  <a href="img/listar_favoritos.png"><img src="img/listar_favoritos.png" width="600" alt="Favoritos" /></a><br />
+  <sub><code>GET /usuarios/1/favoritos</code>: likes con los datos de Spotify</sub>
+</p>
+<p align="center">
+  <a href="img/listar_preferencias.png"><img src="img/listar_preferencias.png" width="600" alt="Preferencias" /></a><br />
+  <sub><code>GET /usuarios/1/preferencias</code>: likes y dislikes del usuario</sub>
+</p>
+<p align="center">
+  <a href="img/playlist_con_canciones.png"><img src="img/playlist_con_canciones.png" width="600" alt="Playlist con canciones" /></a><br />
+  <sub><code>GET /usuarios/1/playlists/1</code>: playlist con sus canciones</sub>
+</p>
+<p align="center">
+  <a href="img/error_mail_repetido.png"><img src="img/error_mail_repetido.png" width="600" alt="Email repetido 409" /></a><br />
+  <sub><code>POST /usuarios</code> con un email repetido: <code>409</code></sub>
 </p>
 
 **Fuentes:** [MySQLCursor.fetchone()](https://dev.mysql.com/doc/connector-python/en/connector-python-api-mysqlcursor-fetchone.html), [MySQLCursor.fetchall()](https://dev.mysql.com/doc/connector-python/en/connector-python-api-mysqlcursor-fetchall.html) y [Códigos de estado HTTP (MDN)](https://developer.mozilla.org/es/docs/Web/HTTP/Reference/Status).
